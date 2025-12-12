@@ -1,5 +1,8 @@
 <template>
   <div class="home-container">
+
+    <img src="../assets/construp.png" alt="Imagem Local" class="imagemLogo">
+
     <h1>Teste Técnico – Constr Up</h1>
     <p>Criado por Felipe Cagnin de Lima.</p>
     <router-link to="/produtos" class="btn">Ir para Lista de Produtos</router-link>
@@ -50,5 +53,10 @@ export default {
 
 .btn:hover {
   background-color: #369870;
+}
+
+.imagemLogo {
+  width: 25vw;
+  margin-bottom: 20px;
 }
 </style>
