@@ -1,4 +1,4 @@
-# Vue.js---Frontend
+# Vue.js-Frontend
 
 Interface em Vue para consumir a API Laravel.
 
