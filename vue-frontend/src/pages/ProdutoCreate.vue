@@ -1,6 +1,10 @@
 <template>
     <div>
         <h1>Novo Produto</h1>
+        <p> <router-link to="/produtos">
+                < Voltar à lista</router-link>
+        </p>
+        <br />
         <ProdutoForm @submit="criarProduto" />
     </div>
 </template>

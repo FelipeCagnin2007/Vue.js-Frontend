@@ -1,6 +1,10 @@
 <template>
     <div>
         <h1>Editar Produto</h1>
+        <p> <router-link to="/produtos">
+                < Voltar à lista</router-link>
+        </p>
+        <br />
         <ProdutoForm v-if="produto" :produtoInicial="produto" @submit="atualizarProduto" />
         <p v-else>Carregando...</p>
     </div>
